@@ -1,0 +1,19 @@
+.buzz {
+  position: relative;
+  width: 100%;
+}
+
+.buzz>img {
+  margin: 0 auto 0 auto;
+  width: 50%;
+  left: 25%;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, .16);
+  position: relative;
+  transition: all .2s linear;
+}
+
+.buzz>img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
